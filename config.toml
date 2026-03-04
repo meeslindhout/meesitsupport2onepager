@@ -1,0 +1,85 @@
+baseURL = "http://localhost:1313/"
+languageCode = "nl-nl"
+title = "Mees IT Support"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Over mij"
+  URL = "#over-mij"
+  weight = 1
+
+  [[menu.header]]
+  name = "Diensten"
+  URL = "#diensten"
+  weight = 2
+
+  [[menu.header]]
+  name = "Tarieven"
+  URL = "#tarieven"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "Over mij"
+  URL = "#over-mij"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Diensten"
+  URL = "#diensten"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Tarieven"
+  URL = "#tarieven"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "about", "client-and-work", "pricing", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-000000"
+
+  [params.logo]
+    text1 = "Mees"
+    text2 = "IT Support"
+
+  [params.footer]
+      copyright = "© Mees IT Support. Alle rechten voorbehouden."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"

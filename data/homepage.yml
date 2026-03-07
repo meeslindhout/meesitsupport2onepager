@@ -1,3 +1,5 @@
+# TODO: Alle taal met "je" erin omschrijven naar "u"
+# TODO: # Fix de # tags van het menu
 # showcase
 showcase:
   enable: true
@@ -30,7 +32,7 @@ about:
     btnText: "Bel of Message via WhatsApp"
     URL: "https://wa.me/31623903323"
   image:
-    x: "img/who-am-i/user-picture.png"
+    x: "img/who-am-i/user-picture.png" # TODO: Upload profile picture
     _2x: "img/who-am-i/user-picture@2x.png"
 
 # education
@@ -48,7 +50,7 @@ client_and_work:
   title: "Mijn Diensten"
   enable: true
 
-  clients:
+  clients: # TODO: Remove the logos as they are not relevant
     - logo:
         x: "img/clients/asgardia.png"
         _2x: "img/clients/asgardia@2x.png"
@@ -81,13 +83,13 @@ client_and_work:
 
   works:
     - title: "Computer hulp"
-      description: "Ik help je met alle soorten computerproblemen, of je nu Windows, Mac, Android of Apple gebruikt."
+      description: "Ik help je met alle soorten computerproblemen, of je nu Windows, Mac, Android of Apple gebruikt." # TODO: Herschrijven tot nettere en persoonlijkere toon
       button:
         icon: "icon-arrow-right"
         btnText: "Meer info"
         URL: "#contact"
       image:
-        x: "img/works/radity-finance.jpg"
+        x: "img/works/radity-finance.jpg" # TODO: Upload relevant image (Computer Hulp)
         _2x: "img/works/radity-finance@2x.jpg"
       is_even: true
 
@@ -98,7 +100,7 @@ client_and_work:
         btnText: "Meer info"
         URL: "#contact"
       image:
-        x: "img/works/swissfintech.jpg"
+        x: "img/works/swissfintech.jpg" # TODO: Upload relevant image (Backup & Beveiliging)
         _2x: "img/works/swissfintech@2x.jpg"
       is_even: false
 
@@ -109,20 +111,20 @@ client_and_work:
         btnText: "Meer info"
         URL: "#contact"
       image:
-        x: "img/works/robo-advisor.jpg"
+        x: "img/works/robo-advisor.jpg" # TODO: Upload relevant image (Telefoon hulp & Wi-Fi)
         _2x: "img/works/robo-advisor@2x.jpg"
       is_even: true
 
-# pricing
+# pricing 
 pricing:
   enable: true
   title: "Tarieven"
-  description: "Transparante en eerlijke prijzen voor al uw IT-ondersteuning"
+  description: "Transparante en eerlijke prijzen voor al uw IT-ondersteuning."
   pricingTable:
     - title: "Uurtarief"
       price: "€ 8,50"
       pricingDetails:
-        - item: "Per kwartier"
+        - item: "Per kwartier" # TODO: Upgrade itemization bullet points to more elegant format
         - item: "Minimaal 30 minuten (€ 17,-)"
         - item: "Voorrijtarief: € 7,-"
       
@@ -134,7 +136,7 @@ pricing:
         - item: "Factuur (zakelijk)"
 
 # testimonial
-testimonial:
+testimonial: # TODO: Verwijder de profielen en behoud alleen de uitspraken.
   enable: true
   title: "Wat klanten zeggen"
   items:
@@ -162,7 +164,7 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact & Afspraken"
+  title: "Contact & Afspraken" # TODO: Maak een werkend contactformulier
   form:
     action: "#"
     full_name: "Volledige naam"
@@ -181,6 +183,7 @@ contact:
     icon: "icon-mail-fill"
     btnText: "Stuur bericht"
 
+# TODO: Newsletter gedeelte uitschakelen.
 # newsletter
 newsletter:
   enable: true

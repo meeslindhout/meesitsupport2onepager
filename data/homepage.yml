@@ -1,5 +1,4 @@
-# TODO: Alle taal met "je" erin omschrijven naar "u"
-# TODO: # Fix de # tags van het menu
+# FIXME: # Fix de # tags van het menu
 # showcase
 showcase:
   enable: true
@@ -50,40 +49,9 @@ client_and_work:
   title: "Mijn Diensten"
   enable: true
 
-  clients: # TODO: Remove the logos as they are not relevant
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Windows"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Apple"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Android"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Telefoon"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Wi-Fi"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Backup"
-
   works:
     - title: "Computer hulp"
-      description: "Ik help je met alle soorten computerproblemen, of je nu Windows, Mac, Android of Apple gebruikt." # TODO: Herschrijven tot nettere en persoonlijkere toon
+      description: "Ik help u met alle soorten technische apparaten, of u het nu uw computer, iPad of smartphone is, samen komen we tot een oplossing."
       button:
         icon: "icon-arrow-right"
         btnText: "Meer info"
@@ -94,7 +62,7 @@ client_and_work:
       is_even: true
 
     - title: "Backup & Beveiliging"
-      description: "Ik zorg ervoor dat je gegevens altijd veilig zijn. Backup instellen en virus verwijdering."
+      description: "Ik zorg ervoor dat uw gegevens altijd veilig zijn. Backup instellen en virus verwijdering."
       button:
         icon: "icon-arrow-right"
         btnText: "Meer info"
@@ -105,7 +73,7 @@ client_and_work:
       is_even: false
 
     - title: "Telefoon hulp & Wi-Fi"
-      description: "Hulp met je smartphone en het verbeteren van je Wi-Fi verbinding voor optimale prestaties."
+      description: "Hulp met uw smartphone en het verbeteren van uw Wi-Fi verbinding voor optimale prestaties."
       button:
         icon: "icon-arrow-right"
         btnText: "Meer info"
@@ -165,11 +133,11 @@ testimonial: # TODO: Verwijder de profielen en behoud alleen de uitspraken.
 contact:
   enable: true
   title: "Contact & Afspraken" # TODO: Maak een werkend contactformulier
-  form:
-    action: "#"
-    full_name: "Volledige naam"
-    email: "E-mailadres"
-    message: "Je bericht"
+  # form:
+  #   action: "#"
+  #   full_name: "Volledige naam"
+  #   email: "E-mailadres"
+  #   message: "Uw bericht"
   phone:
     title: "Telefoonnummer"
     number: "+31 (6) 12345678"
@@ -184,10 +152,10 @@ contact:
     btnText: "Stuur bericht"
 
 # TODO: Newsletter gedeelte uitschakelen.
-# newsletter
-newsletter:
-  enable: true
-  title: "Tarievenlijst aanvragen"
-  success_message: "Bedankt voor je interesse!"
-  error_message: "Er is iets mis gegaan."
-  note: "We delen je e-mail nooit met derden."
+# Nieuwsbrief
+# newsletter:
+#   enable: true
+#   title: "Tarievenlijst aanvragen"
+#   success_message: "Bedankt voor uw interesse!"
+#   error_message: "Er is iets mis gegaan."
+#   note: "We delen uw e-mail nooit met derden."

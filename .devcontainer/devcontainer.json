@@ -18,6 +18,11 @@
       ]
     }
   },
+  "features": {
+    "ghcr.io/devcontainers/features/copilot-cli:1.1.3": {}
+  },
   "remoteUser": "node",
-  "forwardPorts": [1313]
+  "forwardPorts": [
+    1313
+  ]
 }

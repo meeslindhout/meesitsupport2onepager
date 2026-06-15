@@ -131,7 +131,7 @@ testimonial: # TODO: Verwijder de profielen en behoud alleen de uitspraken.
 
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact & Afspraken" # TODO: Maak een werkend contactformulier
   # form:
   #   action: "#"
